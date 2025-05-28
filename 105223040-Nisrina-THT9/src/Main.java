@@ -126,10 +126,8 @@ public class Main {
         daftarTransportasi[2] = new Pesawat("Pesawat", 150, "Medan");
 
         for (Transportasi t : daftarTransportasi) {
-            System.out.println(t.getNama() + " ke " + t.getTujuan() +
-                    " - Harga tiket (default): " + t.hitungHargaTiket());
-            System.out.println(t.getNama() + " ke " + t.getTujuan() +
-                    " - Harga tiket (Bisnis): " + t.hitungHargaTiket("Bisnis"));
+            System.out.println(t.getNama() + " ke " + t.getTujuan() + " - Harga tiket (default): " + t.hitungHargaTiket());
+            System.out.println(t.getNama() + " ke " + t.getTujuan() + " - Harga tiket (Bisnis): " + t.hitungHargaTiket("Bisnis"));
             System.out.println();
         }
     }
